@@ -20,7 +20,7 @@ This study compares how Korean news media and academia have discussed global AI 
 
 ## 1. 연구 배경과 목적
 
-인공지능(AI)을 어떻게 규율할 것인가는 기술 정책의 문제를 넘어 국제정치의 문제가 되었다. 2019년 OECD가 AI 원칙을 채택한 뒤 유럽연합은 2024년에 포괄적 AI 규제법을 제정했고, 미국과 중국은 반도체 수출통제와 기술 표준, 군사 활용을 둘러싸고 경쟁하고 있으며, 유엔과 G7 등 다자 무대에서도 AI 규범 논의가 이어졌다. 한국은 2024년 5월 영국과 함께 AI 서울 정상회의를 공동 개최하였고 AI 기본법을 제정하였다 `[확인: 제정·시행 시기]`. 이런 흐름 속에서 한국의 언론과 학계는 AI 글로벌 거버넌스를 서로 같은 방식으로 다루고 있는가. 언론은 사건과 경쟁을 중심으로, 학계는 제도와 규범을 중심으로 다루리라는 짐작은 있으나 이를 같은 기준으로 비교한 연구는 확인하지 못했다 `[확인: 학술DB 직접 검색 필요]`.
+인공지능(AI)을 어떻게 규율할 것인가는 기술 정책의 문제를 넘어 국제정치의 문제가 되었다. 2019년 OECD가 AI 원칙을 채택한 뒤 유럽연합은 2024년에 포괄적 AI 규제법을 제정했고, 미국과 중국은 반도체 수출통제와 기술 표준, 군사 활용을 둘러싸고 경쟁하고 있으며, 유엔과 G7 등 다자 무대에서도 AI 규범 논의가 이어졌다. 한국은 2024년 5월 영국과 함께 AI 서울 정상회의를 공동 개최하였고, 2025년 1월 21일 인공지능 기본법을 공포하였다(시행 2026년 1월 22일) `[확인: 국가법령정보센터 원문]`. 이런 흐름 속에서 한국의 언론과 학계는 AI 글로벌 거버넌스를 서로 같은 방식으로 다루고 있는가. 언론은 사건과 경쟁을 중심으로, 학계는 제도와 규범을 중심으로 다루리라는 짐작은 있으나 이를 같은 기준으로 비교한 연구는 확인하지 못했다 `[확인: 학술DB 직접 검색 필요]`.
 
 본 연구는 2019년 5월부터 2026년 9월까지 한국 전국일간지 기사와 KCI 등재지·등재후보지 논문을 대상으로 AI 글로벌 거버넌스 담론의 주제와 프레임을 비교한다. 먼저 학술논문에서 LDA 토픽모형을 추정하고 이를 뉴스에 투영해 두 담론을 같은 주제 축 위에 놓는다. 이어 토픽별 표본을 국제정치학의 세 이론 전통(현실주의, 자유주의, 구성주의)에 비추어 코딩하여 토픽을 프레임으로 재해석하고 두 담론의 프레임 비중을 추정한다. 연구 문제는 두 가지이다. 언론과 학계는 어떤 정책 주제를 얼마나 다루는가(연구 문제 1), 두 담론은 어떤 이론 프레임으로 구성되며 시기에 따라 어떻게 달라지는가(연구 문제 2).
 
@@ -348,9 +348,9 @@ Raustiala와 Victor(2004)가 말한 레짐 복합체와 Morse와 Keohane(2014)�
 
 - Bradford, A. (2020). *The Brussels effect: How the European Union rules the world*. Oxford University Press.
 
-- Chuan, C.-H., Tsai, W.-H. S., & Cho, S. Y. (2019). Framing artificial intelligence in American newspapers. *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. `[확인: 쪽수]`
+- Chuan, C.-H., Tsai, W.-H. S., & Cho, S. Y. (2019). Framing artificial intelligence in American newspapers. *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*, 339–344.
 
-- Cihon, P., Maas, M. M., & Kemp, L. (2020). Fragmentation and the future: Investigating architectures for international AI governance. *Global Policy*. `[확인: 권호·쪽수]`
+- Cihon, P., Maas, M. M., & Kemp, L. (2020). Fragmentation and the future: Investigating architectures for international AI governance. *Global Policy*, 11(5). `[확인: 쪽수·DOI]`
 
 - Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, 20(1), 37–46.
 
