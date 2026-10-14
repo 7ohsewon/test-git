@@ -6,14 +6,14 @@ title: "같은 소재, 다른 문제틀: 국가 전략·미중 경쟁 토픽에 
 
 # 초록
 
-본 연구는 한국 학계의 AI 거버넌스 논의 중 '국가 전략·미중 경쟁' 토픽으로 분류된 KCI 학술논문 186편을 전수 대상으로, 학문분야에 따라 국제정치이론 프레임(현실주의·자유주의·구성주의)이 어떻게 달라지는지 비교하였다. 프레임 판정에는 사람 코더 대신 대규모 언어모델(LLM)을 분류 도구로 사용하는 자동 내용분석을 적용하고, 반복 분류와 두 가지 프롬프트 변형으로 안정성을 점검하였다. 분석 결과 같은 토픽이라도 분야에 따라 접근이 뚜렷이 달랐다. 정치외교학(73%)·지역학(72%)·군사학(86%)·정책학(91%)은 현실주의 프레임이 우세한 반면, 법학은 제도·규범을 강조하는 자유주의 프레임이 가장 많았고(46%) 현실주의는 29%에 그쳤다. 교육학은 대부분(90%) 어느 프레임에도 해당하지 않았다. 분야와 프레임의 연관 강도는 Cramér's V=0.39였다. 이러한 큰 방향은 분류 설정과 무관하게 유지되었으나 분야별 세부 비율, 특히 구성주의 비중은 설정에 민감하였다. 반복 분류의 일치도는 κ=0.81, 정의문 변경 시 κ=0.72였고 연구자 확정 라벨과의 일치는 제한적이었다. 본 연구는 AI 거버넌스 담론이 분야별로 다른 문제틀 위에서 전개됨을 보이고, LLM 기반 프레임 분류의 가능성과 한계를 함께 제시한다.
+본 연구는 한국 학계의 AI 거버넌스 논의 중 '국가 전략·미중 경쟁' 토픽으로 분류된 KCI 학술논문 186편을 전수 대상으로, 학문분야에 따라 국제정치이론 프레임(현실주의·자유주의·구성주의)이 어떻게 달라지는지 비교하였다. 프레임 판정에는 사람 코더 대신 대규모 언어모델(LLM)을 분류 도구로 사용하는 자동 내용분석을 적용하고, 반복 분류와 두 가지 프롬프트 변형으로 안정성을 점검하였다. 분석 결과 같은 토픽이라도 분야에 따라 접근이 뚜렷이 달랐다. 정치외교학(73%)·지역학(72%)·군사학(86%)·정책학(91%)은 현실주의 프레임이 우세한 반면, 법학은 제도·규범을 강조하는 자유주의 프레임이 가장 많았고(46%) 현실주의는 29%에 그쳤다. 교육학은 대부분(90%) 어느 프레임에도 해당하지 않았다. 분야와 프레임의 연관 강도는 Cramér's V=0.39였다. 이러한 큰 방향은 분류 설정과 무관하게 유지되었으나 분야별 세부 비율, 특히 구성주의 비중은 설정에 민감하였다. 반복 분류의 일치도는 κ=0.81, 정의문 변경 시 κ=0.72였고 연구자의 독립 코딩과의 일치는 중등도에서 상당한 수준(κ=0.67)이었다. 본 연구는 AI 거버넌스 담론이 분야별로 다른 문제틀 위에서 전개됨을 보이고, LLM 기반 프레임 분류의 가능성과 한계를 함께 제시한다.
 
 
 **주제어**: AI 거버넌스, 프레임 분석, 학문분야, 국제정치이론, LLM 기반 내용분석
 
 # Abstract
 
-Using all 186 Korean journal articles (KCI) assigned to the "national strategy and US–China competition" topic of AI governance, this study compares how academic disciplines frame the same issue through realist, liberal, and constructivist perspectives. Frames were coded by a large language model (LLM) as an automated content-analysis tool, and stability was checked by a blind repeat and two prompt variations. Disciplines differed markedly: realism dominated political science/diplomacy (73%), area studies (72%), military studies (86%), and policy studies (91%), while law favored a liberal, rules-and-institutions frame (46%) over realism (29%); most education papers (90%) fit none of the frames. Association between discipline and frame was moderate (Cramér's V = 0.39). The broad pattern held across all classification settings, but disciplinary percentages, particularly for constructivism, were sensitive to prompt wording (repeat κ = 0.81; reworded definitions κ = 0.72), and agreement with researcher-confirmed labels was limited. The study shows that AI governance discourse is built on different problem frames across disciplines and reports both the promise and limits of LLM-based frame classification.
+Using all 186 Korean journal articles (KCI) assigned to the "national strategy and US–China competition" topic of AI governance, this study compares how academic disciplines frame the same issue through realist, liberal, and constructivist perspectives. Frames were coded by a large language model (LLM) as an automated content-analysis tool, and stability was checked by a blind repeat and two prompt variations. Disciplines differed markedly: realism dominated political science/diplomacy (73%), area studies (72%), military studies (86%), and policy studies (91%), while law favored a liberal, rules-and-institutions frame (46%) over realism (29%); most education papers (90%) fit none of the frames. Association between discipline and frame was moderate (Cramér's V = 0.39). The broad pattern held across all classification settings, but disciplinary percentages, particularly for constructivism, were sensitive to prompt wording (repeat κ = 0.81; reworded definitions κ = 0.72), and agreement with the researcher's independent coding of 50 papers was substantial (κ = 0.67). The study shows that AI governance discourse is built on different problem frames across disciplines and reports both the promise and limits of LLM-based frame classification.
 
 
 **Keywords**: AI governance, framing, academic disciplines, international relations theory, LLM-assisted content analysis
@@ -56,7 +56,7 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 ## 3. 타당화와 안정성 점검
 
-사람 코딩을 하지 않으므로 다음 세 가지로 분류의 신뢰성을 점검하였다. 첫째, 이전 라벨을 보지 않은 독립 LLM 인스턴스로 같은 코드북과 입력으로 재분류하였다(독립 반복). 둘째, 초록을 잘라내지 않고 전체를 제공하였다. 셋째, 코드북 없이 새로 작성한 짧은 정의문만 제공하였다. 일치도는 일치율과 Cohen's κ(Cohen, 1960)로 보고하며 해석은 Landis와 Koch(1977)의 구간을 참고한다. 이 점검은 같은 계열 모델 간의 안정성(신뢰도)을 보여줄 뿐 타당도를 보증하지 않는다. 타당도의 외부 기준은 연구자 확정 라벨 10편뿐이며 표본이 작다.
+사람 코딩을 하지 않으므로 다음 세 가지로 분류의 신뢰성을 점검하였다. 첫째, 이전 라벨을 보지 않은 독립 LLM 인스턴스로 같은 코드북과 입력으로 재분류하였다(독립 반복). 둘째, 초록을 잘라내지 않고 전체를 제공하였다. 셋째, 코드북 없이 새로 작성한 짧은 정의문만 제공하였다. 일치도는 일치율과 Cohen's κ(Cohen, 1960)로 보고하며 해석은 Landis와 Koch(1977)의 구간을 참고한다. 이 점검은 같은 계열 모델 간의 안정성(신뢰도)을 보여줄 뿐 타당도를 보증하지 않는다. 타당도의 외부 기준으로, 연구자가 LLM 분류를 보지 않은 채 독립적으로 코딩한 50편(LLM 1차 분류별 층화 추출: 현실 20, 자유 10, 구성 10, 해당없음 10)과 비교하였다. 50편은 연구자 확정 10편과 겹치지 않으며 표본이 작다. 층화가 LLM 라벨 기준이므로 전체 일치율은 층 크기(176편 중 현실 98, 자유 27, 구성 27, 해당없음 23)로 가중해 추정하고, 신뢰구간은 부트스트랩(2,000회)으로 구하였다.
 
 ## 4. 분석
 
@@ -118,11 +118,11 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 | 1차 분류 vs 정의문 변경 | 0.817 | 0.719 |
 | 초록 전체 제공 vs 정의문 변경 | – | 0.696 |
 
-코드북이 같으면 κ가 0.80 안팎으로 안정적이었으나, 정의문을 바꾸면 '구성' 논문 10편이 '자유'로, '현실' 논문 11편이 '해당없음'으로 옮겨 가 구성 비중이 15%에서 9%로 줄었다. 확신도별 일치율은 '상' 97.6%, '중' 88.7%, '하' 65.2%였다. 연구자가 직접 확정한 10편과의 일치는 독립 반복 6편, 초록 전체 제공 7편, 정의문 변경 6편이었다.
+코드북이 같으면 κ가 0.80 안팎으로 안정적이었으나, 정의문을 바꾸면 '구성' 논문 10편이 '자유'로, '현실' 논문 11편이 '해당없음'으로 옮겨 가 구성 비중이 15%에서 9%로 줄었다. 확신도별 일치율은 '상' 97.6%, '중' 88.7%, '하' 65.2%였다. 사람 기준과의 대조에서는, 연구자가 독립 코딩한 50편과 LLM 1차 분류의 일치율이 76.0%, κ = 0.67(95% 부트스트랩 구간 0.50–0.82)이었다. LLM 라벨의 층 크기로 가중한 일치율은 77.1%(0.65–0.89)였다. 같은 50편에서 다른 설정의 일치는 독립 반복 0.82(κ 0.75), 초록 전체 제공 0.90(κ 0.86), 정의문 변경 0.70(κ 0.60)이었다. 불일치 12편 가운데 연구자가 '구성'으로 판정했으나 LLM이 다른 프레임(자유 1, 해당없음 2, 현실 2)으로 분류한 경우가 5편, 반대로 LLM이 '구성'으로 분류했으나 연구자는 다르게 판정한 경우가 2편이었다. 분야별로는 정치외교 12편 중 11편(92%)이 일치한 반면 법학은 7편 중 4편(57%), 정책학은 4편 중 2편(50%)이었고, 분야별 표본이 작아 참고용이다. 연구자 확정 10편과의 일치는 별도로 독립 반복 6편, 초록 전체 제공 7편, 정의문 변경 6편이었다.
 
 ## 6. 이 결과가 말하지 못하는 것
 
-- 사람 코더의 기준과 비교한 타당도는 연구자 확정 10편에서 6–7편 일치에 그쳐 충분히 입증되지 않았다.
+- 사람 기준과의 타당도는 단일 코더 50편에서 κ=0.67(구간 0.50–0.82)로 확인되었으나 표본이 작고 구간 하한이 낮다.
 - 제목·초록 기반 분류이므로 본문 논거와 다를 수 있다.
 - 분야 구분은 KCI 중분류 기준이며, 한 논문이 복수 분야에 걸치는 경우 첫 분류만 사용했다. [확인: 분야 지정 규칙]
 
@@ -140,7 +140,7 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 ## 3. 방법론적 시사점과 한계
 
 - LLM 분류는 같은 코드북에서 안정적이었으나(κ≈0.80) 정의문이 바뀌면 구성주의 경계가 크게 움직였다. 따라서 LLM 기반 프레임 분석은 수치 하나가 아니라 설정별 범위로 보고해야 한다.
-- 연구자 확정 라벨 10편 중 6–7편만 일치하여 사람 기준 타당도는 충분히 입증되지 않았다. 반복 분류는 신뢰도일 뿐 타당도를 보증하지 않으며 체계적 편향은 재현된다.
+- 연구자의 독립 코딩 50편과의 일치는 κ=0.67(95% 구간 0.50–0.82)로, 사람 기준 타당도가 어느 정도 확인되었으나 단일 코더, 50편이라는 한계가 있고 구간 하한이 중등도 수준이다. 불일치에서 연구자가 '구성'으로 보고 LLM이 아니라고 본 경우(5편)가 반대(2편)보다 많아, 구성 비중이 LLM 분류에서 과소추정되었을 가능성이 있으나 표본이 작아 잠정적이다. 반복 분류는 신뢰도일 뿐 타당도를 보증하지 않으며 체계적 편향은 재현된다.
 - 제목·초록 기반 분류이고, KCI 코퍼스와 LDA 배정에 의존하며, 소규모 분야(n<15)의 비율은 불안정하다. 결과는 이 코퍼스에 한정된 기술적 모수이다.
 - 후속 연구는 사람 코더 다수와의 대조, 본문 수준 분석, 복수 모델 비교가 필요하다.
 
