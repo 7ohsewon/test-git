@@ -42,7 +42,7 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 ## 2. 연구 공백
 
-선행 연구는 AI 거버넌스를 이론별로 설명하거나, 뉴스 프레이밍을 가치 프레임 중심으로 분석해 왔다. 그러나 한국 학계 안에서 학문분야에 따라 같은 소재가 어떤 이론 프레임으로 다루어지는지를 전수 자료로 비교한 연구는 확인하지 못했다 `[확인: 학술DB 직접 검색 필요]`. 또한 이론 기반 프레임 분류에 LLM을 쓸 때 그 결과가 분류 설정에 얼마나 민감한지를 함께 보고한 연구도 확인하지 못했다 `[확인: LLM 기반 내용분석 선행 연구 검토 보강]`. 본 연구는 이 두 공백을 다룬다. 학문분야는 문제를 보는 훈련과 규범이 다르므로 같은 소재라도 다른 프레임을 택할 것이라는 기대가 있으나, 이를 검증한 근거는 확인되지 않았으므로 본 연구는 탐색적 비교로 수행한다. 따라서 가설 검정 대신 분야별 분포와 그 안정성을 기술한다.
+선행 연구는 AI 거버넌스를 이론별로 설명하거나, 뉴스 프레이밍을 가치 프레임 중심으로 분석해 왔다. 그러나 한국 학계 안에서 학문분야에 따라 같은 소재가 어떤 이론 프레임으로 다루어지는지를 전수 자료로 비교한 연구는 확인하지 못했다 `[확인: 학술DB 직접 검색 필요]`. 한편 LLM을 텍스트 주석 도구로 쓰는 연구는 프레임 탐지를 포함한 과제에서 인간 주석자와 견줄 만한 정확도와 일치도를 보고해 왔고(Gilardi et al., 2023; Ziems et al., 2024), 다른 한편으로는 프롬프트 문구를 조금 바꾸거나 같은 입력을 반복해도 출력이 달라질 수 있으므로 인간 라벨에 의한 검증이 필요하다고 경고한다(Reiss, 2023). 다만 이 연구들은 주로 영어 소셜미디어 텍스트를 대상으로 하며, 한국어 학술논문에서 이론 기반 프레임을 분류하면서 그 결과가 분류 설정과 사람 코딩에 얼마나 견고한지를 함께 보고한 연구는 확인하지 못했다 `[확인: 학술DB 직접 검색 필요]`. 본 연구는 이 두 공백을 다룬다. 학문분야는 문제를 보는 훈련과 규범이 다르므로 같은 소재라도 다른 프레임을 택할 것이라는 기대가 있으나, 이를 검증한 근거는 확인되지 않았으므로 본 연구는 탐색적 비교로 수행한다. 따라서 가설 검정 대신 분야별 분포와 그 안정성을 기술한다.
 
 # Ⅲ. 연구 방법
 
@@ -169,6 +169,8 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 - Finnemore, M., & Sikkink, K. (1998). International norm dynamics and political change. *International Organization*, 52(4), 887–917.
 
+- Gilardi, F., Alizadeh, M., & Kubli, M. (2023). ChatGPT outperforms crowd workers for text-annotation tasks. *Proceedings of the National Academy of Sciences*, 120(30), e2305016120. https://doi.org/10.1073/pnas.2305016120 `[확인: 서지 원문 대조]`
+
 - Hagendorff, T. (2020). The ethics of AI ethics: An evaluation of guidelines. *Minds and Machines*, 30(1), 99–120. https://doi.org/10.1007/s11023-020-09517-8
 
 - Horowitz, M. C. (2018). Artificial intelligence, international competition, and the balance of power. *Texas National Security Review*, 1(3).
@@ -179,7 +181,11 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 - Morse, J. C., & Keohane, R. O. (2014). Contested multilateralism. *Review of International Organizations*, 9(4), 385–412.
 
+- Reiss, M. V. (2023). *Testing the reliability of ChatGPT for text annotation and classification: A cautionary remark*. arXiv:2304.11085. `[확인: 프리프린트, 게재본 여부]`
+
 - Roberts, H., Cowls, J., Morley, J., Taddeo, M., Wang, V., & Floridi, L. (2021). The Chinese approach to artificial intelligence: An analysis of policy, ethics, and regulation. *AI & Society*, 36(1), 59–77.
 
 
 - Schmitt, L. (2022). Mapping global AI governance: A nascent regime in a fragmented landscape. *AI and Ethics*, 2(2), 303–314. https://doi.org/10.1007/s43681-021-00083-y
+
+- Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z., & Yang, D. (2024). Can large language models transform computational social science? *Computational Linguistics*, 50(1), 237–291. https://doi.org/10.1162/coli_a_00502 `[확인: 서지 원문 대조]`
