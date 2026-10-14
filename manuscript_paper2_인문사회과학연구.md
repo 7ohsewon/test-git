@@ -6,14 +6,14 @@ title: "같은 소재, 다른 문제틀: 국가 전략·미중 경쟁 토픽에 
 
 # 초록
 
-본 연구는 한국 학계의 AI 거버넌스 논의 중 '국가 전략·미중 경쟁' 토픽으로 분류된 KCI 학술논문 186편을 전수 대상으로, 학문분야에 따라 국제정치이론 프레임(현실주의·자유주의·구성주의)이 어떻게 달라지는지 비교하였다. 프레임 판정에는 사람 코더 대신 대규모 언어모델(LLM)을 분류 도구로 사용하는 자동 내용분석을 적용하고, 반복 분류와 두 가지 프롬프트 변형으로 안정성을 점검하였다. 분석 결과 같은 토픽이라도 분야에 따라 접근이 뚜렷이 달랐다. 정치외교학(73%)·지역학(72%)·군사학(86%)·정책학(91%)은 현실주의 프레임이 우세한 반면, 법학은 제도·규범을 강조하는 자유주의 프레임이 가장 많았고(46%) 현실주의는 29%에 그쳤다. 교육학은 대부분(90%) 어느 프레임에도 해당하지 않았다. 분야와 프레임의 연관 강도는 Cramér's V=0.39였다. 이러한 큰 방향은 분류 설정과 무관하게 유지되었으나 분야별 세부 비율, 특히 구성주의 비중은 설정에 민감하였다. 반복 분류의 일치도는 κ=0.81, 정의문 변경 시 κ=0.72였고 연구자의 독립 코딩과의 일치는 중등도에서 상당한 수준(κ=0.67)이었다. 본 연구는 AI 거버넌스 담론이 분야별로 다른 문제틀 위에서 전개됨을 보이고, LLM 기반 프레임 분류의 가능성과 한계를 함께 제시한다.
+본 연구는 한국 학계의 AI 거버넌스 논의 중 '국가 전략·미중 경쟁' 토픽으로 분류된 KCI 학술논문 186편을 전수 대상으로, 학문분야에 따라 국제정치이론 프레임(현실주의·자유주의·구성주의)이 어떻게 달라지는지 비교하였다. 프레임 판정에는 사람 코더 대신 대규모 언어모델(LLM)을 분류 도구로 사용하는 자동 내용분석을 적용하고, 반복 분류와 두 가지 프롬프트 변형으로 안정성을 점검하였다. 분석 결과 같은 토픽이라도 분야에 따라 접근이 뚜렷이 달랐다. 정치외교학(73%)·지역학(74%)·군사학(86%)·정책학(92%)은 현실주의 프레임이 우세한 반면, 법학은 제도·규범을 강조하는 자유주의 프레임이 가장 많았고(46%) 현실주의는 29%에 그쳤다. 교육학은 대부분(90%) 어느 프레임에도 해당하지 않았다. 분야와 프레임의 연관 강도는 Cramér's V=0.40이었다. 이러한 큰 방향은 분류 설정과 무관하게 유지되었으나 분야별 세부 비율, 특히 구성주의 비중은 설정에 민감하였다. 반복 분류의 일치도는 κ=0.81, 정의문 변경 시 κ=0.72였고 연구자의 독립 코딩과의 일치는 중등도에서 상당한 수준(κ=0.67)이었다. 본 연구는 AI 거버넌스 담론이 분야별로 다른 문제틀 위에서 전개됨을 보이고, LLM 기반 프레임 분류의 가능성과 한계를 함께 제시한다.
 
 
 **주제어**: AI 거버넌스, 프레임 분석, 학문분야, 국제정치이론, LLM 기반 내용분석
 
 # Abstract
 
-Using all 186 Korean journal articles (KCI) assigned to the "national strategy and US–China competition" topic of AI governance, this study compares how academic disciplines frame the same issue through realist, liberal, and constructivist perspectives. Frames were coded by a large language model (LLM) as an automated content-analysis tool, and stability was checked by a blind repeat and two prompt variations. Disciplines differed markedly: realism dominated political science/diplomacy (73%), area studies (72%), military studies (86%), and policy studies (91%), while law favored a liberal, rules-and-institutions frame (46%) over realism (29%); most education papers (90%) fit none of the frames. Association between discipline and frame was moderate (Cramér's V = 0.39). The broad pattern held across all classification settings, but disciplinary percentages, particularly for constructivism, were sensitive to prompt wording (repeat κ = 0.81; reworded definitions κ = 0.72), and agreement with the researcher's independent coding of 50 papers was substantial (κ = 0.67). The study shows that AI governance discourse is built on different problem frames across disciplines and reports both the promise and limits of LLM-based frame classification.
+Using all 186 Korean journal articles (KCI) assigned to the "national strategy and US–China competition" topic of AI governance, this study compares how academic disciplines frame the same issue through realist, liberal, and constructivist perspectives. Frames were coded by a large language model (LLM) as an automated content-analysis tool, and stability was checked by a blind repeat and two prompt variations. Disciplines differed markedly: realism dominated political science/diplomacy (73%), area studies (74%), military studies (86%), and policy studies (92%), while law favored a liberal, rules-and-institutions frame (46%) over realism (29%); most education papers (90%) fit none of the frames. Association between discipline and frame was moderate (Cramér's V = 0.40). The broad pattern held across all classification settings, but disciplinary percentages, particularly for constructivism, were sensitive to prompt wording (repeat κ = 0.81; reworded definitions κ = 0.72), and agreement with the researcher's independent coding of 50 papers was substantial (κ = 0.67). The study shows that AI governance discourse is built on different problem frames across disciplines and reports both the promise and limits of LLM-based frame classification.
 
 
 **Keywords**: AI governance, framing, academic disciplines, international relations theory, LLM-assisted content analysis
@@ -48,7 +48,7 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 ## 1. 분석 대상
 
-분석 대상은 KCI 등재지·등재후보지 논문 669편에 LDA 토픽모형(K=7)을 추정하여 '국가 전략·미중 경쟁'(T1) 토픽에 가장 높은 비중으로 배정된 논문 186편 전체이다. 표집 없이 전수를 분석하므로 보고하는 비율은 표본추정치가 아니라 이 코퍼스의 모수이다. 다만 코퍼스는 검색·수집 범위와 토픽 배정 규칙에 의존하므로 일반화 범위는 이 코퍼스로 한정한다. 코퍼스와 토픽모형은 선행 연구와 같은 것이다 `[확인: 선행 연구와의 관계 명시]`. 학문분야는 KCI 연구분야 중분류를 사용하며, 10편 미만 분야는 '기타'로 묶었다. `[확인: 복수 분야 논문의 분야 지정 규칙]`
+분석 대상은 KCI 등재지·등재후보지 논문 669편에 LDA 토픽모형(K=7)을 추정하여 '국가 전략·미중 경쟁'(T1) 토픽에 가장 높은 비중으로 배정된 논문 186편 전체이다. 표집 없이 전수를 분석하므로 보고하는 비율은 표본추정치가 아니라 이 코퍼스의 모수이다. 다만 코퍼스는 검색·수집 범위와 토픽 배정 규칙에 의존하므로 일반화 범위는 이 코퍼스로 한정한다. 코퍼스와 토픽모형은 선행 연구와 같은 것이다 `[확인: 선행 연구와의 관계 명시]`. 학문분야는 KCI가 논문별로 부여한 단일 연구분야 경로(대분류 > 중분류 > 소분류)의 중분류(두 번째 단계)를 사용하였다. 186편 모두 하나의 경로만 갖고 있어 복수 분야 논문은 없었다. 경로가 중분류 한 단계로만 기재된 3편(정책학 1, 지역학 2)은 그 이름을 중분류로 보았다. 10편 미만 분야는 '기타'로 묶었다.
 
 ## 2. 프레임 분류
 
@@ -74,26 +74,26 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 ## 2. 학문분야별 프레임 분포
 
-표 1은 중분류 분야별 프레임 비율(1차 분류, %)과 네 가지 설정에서의 범위이다. 10편 미만 분야는 '기타'로 묶었다(n=34).
+표 1은 중분류 분야별 프레임 비율(1차 분류, %)과 네 가지 설정에서의 범위이다. 10편 미만 분야는 '기타'로 묶었다(n=31).
 
 | 분야 | n | 현실 | 자유 | 구성 | 해당없음 |
 |---|---|---|---|---|---|
 | 정치외교학 | 30 | 73 (73–77) | 10 (7–10) | 17 (17–20) | 0 (0–0) |
-| 지역학 | 25 | 72 (64–76) | 16 (12–16) | 12 (8–12) | 0 (0–12) |
+| 지역학 | 27 | 74 (67–78) | 15 (11–15) | 11 (7–11) | 0 (0–11) |
 | 법학 | 24 | 29 (29–33) | 46 (33–62) | 17 (0–29) | 4 (4–4) |
 | 경영학 | 15 | 27 (27–47) | 27 (20–27) | 13 (0–13) | 33 (27–47) |
 | 군사학 | 14 | 86 (57–86) | 0 (0–7) | 14 (7–21) | 0 (0–29) |
 | 학제간연구 | 13 | 54 (54–62) | 8 (8–8) | 31 (15–31) | 8 (8–23) |
-| 정책학 | 11 | 91 (64–91) | 0 (0–0) | 9 (0–9) | 0 (0–27) |
+| 정책학 | 12 | 92 (67–92) | 0 (0–0) | 8 (0–8) | 0 (0–25) |
 | 사회과학일반 | 10 | 60 (40–60) | 0 (0–10) | 10 (0–20) | 30 (30–50) |
 | 교육학 | 10 | 0 (0–0) | 0 (0–0) | 10 (10–30) | 90 (70–90) |
-| 기타 | 34 | 47 (47–59) | 18 (18–18) | 15 (12–15) | 21 (12–24) |
+| 기타 | 31 | 42 (42–55) | 19 (19–19) | 16 (13–16) | 23 (13–26) |
 
-분야와 프레임의 연관 강도는 Cramér's V = 0.39(네 설정에서 0.37–0.40)로 중간 이상이다. 분야 라벨을 무작위로 섞은 5,000회 참조분포에서 관측값 이상이 나온 경우는 없었다(p<0.001). 전수 자료이므로 이 값은 추론적 검정이 아니라 '분야 구분 없이 프레임이 배정되었다고 가정할 때 이 정도 차이가 나올 가능성'을 보여주는 참조 지표로만 해석한다.
+분야와 프레임의 연관 강도는 Cramér's V = 0.40(네 설정에서 0.38–0.40)로 중간 이상이다. 분야 라벨을 무작위로 섞은 5,000회 참조분포에서 관측값 이상이 나온 경우는 없었다(p<0.001). 전수 자료이므로 이 값은 추론적 검정이 아니라 '분야 구분 없이 프레임이 배정되었다고 가정할 때 이 정도 차이가 나올 가능성'을 보여주는 참조 지표로만 해석한다.
 
 ## 3. 주요 발견
 
-**(1) 안보·국제정치 계열은 현실 프레임이 지배적이다.** 정치외교학(73%), 지역학(72%), 군사학(86%), 정책학(91%)에서 현실 프레임이 70% 안팎 이상이다. 이 가운데 정치외교·군사·지역 세 분야를 합친 계열(n=69)에서는 현실 75%(67–78), 자유 10%(7–10), 구성 14%(13–16)이다.
+**(1) 안보·국제정치 계열은 현실 프레임이 지배적이다.** 정치외교학(73%), 지역학(74%), 군사학(86%), 정책학(92%)에서 현실 프레임이 70% 안팎 이상이다. 이 가운데 정치외교·군사·지역 세 분야를 합친 계열(n=71)에서는 현실 76%(68–79), 자유 10%(7–10), 구성 14%(13–15)이다.
 
 **(2) 법학은 같은 토픽을 자유(제도·규범) 프레임으로 다룬다.** 법학 24편 중 자유가 46%(33–62)로 가장 많고 현실은 29%(29–33)에 그친다. 같은 '국가 전략·미중 경쟁' 토픽이라도 법학은 경쟁 자체보다 규제·제도 설계를 논거의 중심에 둔다. 이 분야 차이의 방향(법학의 현실 비중이 정치외교·지역의 절반 이하)은 네 설정 모두에서 유지되었다.
 
@@ -104,8 +104,8 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 ## 4. 분류 설정에 대한 강건성(요약)
 
 - 분야 간 차이의 큰 방향(정치외교·지역·군사·정책은 현실, 법학은 자유 비중이 가장 큼, 교육학은 해당없음)은 네 가지 분류 설정에서 모두 유지되었다.
-- 반면 군사학(현실 86→57), 정책학(91→64), 경영학(현실 27→47), 법학의 자유(33–62), 구성 비율 전반은 설정에 따라 크게 움직인다. 이들의 절대 수치는 점추정이 아니라 범위로 해석해야 한다.
-- 분야별 반복 분류 일치율은 정치외교 0.93, 군사 0.93, 지역 0.88, 법학 0.83, 경영 0.67로, 일치율이 낮은 분야일수록 위 범위가 넓다.
+- 반면 군사학(현실 86→57), 정책학(92→67), 경영학(현실 27→47), 법학의 자유(33–62), 구성 비율 전반은 설정에 따라 크게 움직인다. 이들의 절대 수치는 점추정이 아니라 범위로 해석해야 한다.
+- 분야별 반복 분류 일치율은 정치외교 0.93, 군사 0.93, 지역 0.89, 법학 0.83, 경영 0.67로, 일치율이 낮은 분야일수록 위 범위가 넓다.
 
 ## 5. 분류의 안정성
 
@@ -126,7 +126,7 @@ AI를 규율하는 국제 규범은 하나의 조약이나 기구가 아니라 �
 
 - 사람 기준과의 타당도는 단일 코더 50편에서 κ=0.67(구간 0.50–0.82)로 확인되었으나 표본이 작고 구간 하한이 낮다.
 - 제목·초록 기반 분류이므로 본문 논거와 다를 수 있다.
-- 분야 구분은 KCI 중분류 기준이며, 한 논문이 복수 분야에 걸치는 경우 첫 분류만 사용했다. [확인: 분야 지정 규칙]
+- 분야 구분은 KCI가 학술지·논문에 부여한 중분류 기준이며, 논문의 실제 내용 분야와 다를 수 있다.
 
 # Ⅴ. 논의 및 결론
 
